@@ -1,0 +1,28 @@
+@import url('changelog.css');
+@import url('footer.css');
+@import url('game_preview.css');
+@import url('feedback.css');
+@import url('features.css');
+/* Add css before here */
+@import url('general.css');
+@import url('home.css');
+@import url('nav.css');
+@import url('downloads.css');
+@import url('responsive.css');
+@import url('splide.css');
+@import url('theme.css');
+
+#iframeWrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#contentFrame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
